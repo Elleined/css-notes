@@ -1,8 +1,11 @@
 # css-notes
 Notes for CSS
 
-# CSS Selectors
+# Specifity
+- CSS is applied from top to bottom
+- ID > Class > Elements
 
+# CSS Selectors
 ## 1. Basic Selectors
 | Selector | Description | Example | Matches |
 |----------|-------------|---------|---------|
@@ -44,7 +47,6 @@ Notes for CSS
 | `p::first-letter` | First letter |
 | `::before` | Content before element |
 | `::after` | Content after element |
-
 
 ## Positioning
 - absolute: Will be removed from the DOM. The other html elements treat it as it doesn't exists. Bahala ka san mo sya ilalagay.
